@@ -245,6 +245,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dfe1e5;
 }
 .icon-title {
   display: flex;
@@ -267,4 +270,13 @@ body {
   border-radius: 50%;
   background-color: #81e4ed;
   font-size: 10px;
+}
+.arr:hover {
+  background-color: #81e4ed;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.latest-title {
+  padding-left: 0;
+  margin: 0;
 }
