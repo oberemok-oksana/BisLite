@@ -8,7 +8,16 @@
   font-style: normal;
   font-weight: normal;
 }
-
+@font-face {
+  font-family: "ArialItalic";
+  src: url("./fonts/ArialItalic/ArialItalic.eot");
+  src: url("./fonts/ArialItalic/ArialItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("./fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 /* font-family: "ArialBold"; */
 @font-face {
   font-family: "ArialBold";
@@ -222,6 +231,7 @@ body {
   line-height: 20px;
   color: #000000;
   padding-left: 16px;
+  margin: 0;
 }
 
 .quality-card-text {
@@ -289,6 +299,7 @@ body {
   gap: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #dfe1e5;
+  margin-bottom: 20px;
 }
 .card-img {
   position: relative;
@@ -310,4 +321,51 @@ body {
 .card-img:hover .active-img {
   opacity: 1;
   transition: 0.2s linear;
+}
+
+.test-clients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 96px;
+  padding-bottom: 41px;
+}
+/* we have icon-title but with another gap and another justify-content*/
+.img-title {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 18px;
+}
+.works-text {
+  font-family: "ArialItalic";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  padding-bottom: 37px;
+}
+.sign {
+  font-family: "ArialBoldItalic";
+}
+.testimonials {
+  width: 50%;
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 101px 101px;
+}
+.bg {
+  /* width: 160px; */
+  /* height: 101px; */
+  background-color: #fff;
+  box-shadow: 4px 9px 34px -14px rgba(34, 60, 80, 0.13) inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-clients {
+  width: 50%;
 }
