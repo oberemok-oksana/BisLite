@@ -468,3 +468,16 @@ body {
 .quality-card-title.latest-title.footer-title {
   padding-bottom: 20px;
 }
+.copyright-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 212px;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.copyright-text {
+  font-family: "ArialRegular";
+  font-size: 13px;
+  line-height: 18px;
+}
