@@ -452,6 +452,10 @@ body {
   line-height: 26px;
   display: block;
 }
+.footer-text:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 .bis-bold {
   font-family: "ArialBold";
 }
@@ -480,4 +484,11 @@ body {
   font-family: "ArialRegular";
   font-size: 13px;
   line-height: 18px;
+}
+.media-icon {
+  cursor: pointer;
+}
+.media-icon:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
 }
