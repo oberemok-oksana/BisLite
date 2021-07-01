@@ -85,6 +85,7 @@ body {
 }
 .submenu {
   display: block;
+  visibility: hidden;
   opacity: 0;
   position: absolute;
   left: 0;
@@ -121,7 +122,8 @@ body {
 }
 .nav-li:hover .submenu {
   opacity: 1;
-  transition: 0.3s;
+  visibility: visible;
+  transition: visibility 0s, opacity 0.3s;
 }
 
 .submenu-li {
@@ -156,14 +158,21 @@ body {
   padding-top: 20px;
 }
 .carousel-background {
-  background-image: url("./images/orange.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #e05936;
   position: relative;
+}
+.message-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: block;
+}
+.title-cup {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 76px 388px 27px 61px;
+  padding: 0 388px 27px 61px;
 }
 .main-title {
   margin: 0;
