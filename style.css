@@ -51,6 +51,8 @@ body {
 }
 .header-background {
   background-color: #e8ebf1;
+
+  border-bottom: solid 1px rgba(0, 0, 0, 0.15);
 }
 .header {
   display: flex;
@@ -116,6 +118,9 @@ body {
   background-color: #fff;
   border-top: 5px solid #2aacc8;
   transition: 0.3s;
+}
+.nav-li.without_submenu:hover {
+  background-color: #e8ebf1;
 }
 .nav-li .nav-link:hover {
   color: #2aacc8;
@@ -255,6 +260,10 @@ body {
   padding-bottom: 0;
   padding-left: 10px;
   cursor: pointer;
+  text-decoration: none;
+}
+.quality-card-text.text-more:hover {
+  text-decoration: underline;
 }
 .arrow-right {
   font-size: 12px;
@@ -398,7 +407,10 @@ body {
   font-size: 18px;
   border-radius: 8px;
   cursor: pointer;
-  /* padding: 17px 19px; */
+}
+.btn:hover {
+  color: #fff;
+  transition: 0.1s;
 }
 .psd {
   display: grid;
@@ -500,4 +512,7 @@ body {
 .media-icon:hover {
   transform: scale(1.2);
   transition: 0.3s;
+}
+.footer-text.contacts:hover {
+  transform: none;
 }
