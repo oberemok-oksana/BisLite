@@ -246,6 +246,7 @@ body {
   color: #000000;
   padding-left: 16px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .quality-card-text {
@@ -515,4 +516,7 @@ body {
 }
 .footer-text.contacts:hover {
   transform: none;
+}
+.uppercase {
+  text-transform: uppercase;
 }
